@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Данные и секреты
+*.db
+*.sqlite3
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# ОС
+Thumbs.db
+.DS_Store
+
+# Visual Studio
+.vs/
+obj/
+bin/
+*.user
+*.pyproj.user

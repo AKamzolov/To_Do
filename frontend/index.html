@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Мои задачи</h1>
+
+        <form id="task-form">
+            <input type="text" id="title" placeholder="Название задачи" required>
+            <input type="text" id="description" placeholder="Описание (необязательно)">
+            <button type="submit">Добавить</button>
+        </form>
+
+        <ul id="task-list"></ul>
+        <p id="empty" class="empty hidden">Задач пока нет. Добавь первую! 🚀</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
