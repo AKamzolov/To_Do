@@ -15,7 +15,8 @@ app = FastAPI(title="To-Do API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],      # для учёбы; в проде укажи конкретный origin
+    allow_origins=["https://todo-frontend-b3zq.onrender.com"], # ваш фронтенд
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
