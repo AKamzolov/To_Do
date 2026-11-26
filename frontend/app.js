@@ -1,3 +1,6 @@
+const API = window.location.hostname === "127.0.0.1" || window.location.hostname === "localhost"
+    ? "http://127.0.0.1:8000"
+    : "https://to-do-mels.onrender.com"; // замените на реальный URL
 const API = "https://to-do-mels.onrender.com/";
 const list = document.getElementById("task-list");
 const empty = document.getElementById("empty");
